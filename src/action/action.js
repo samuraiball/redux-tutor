@@ -9,7 +9,7 @@ export const SET_VISIBIRITY_FILTER = 'SET_VISIBIRITY_FILTER'
 /*
     other contents
  */
-export const VisibirityFilter = {
+export const VisibirityFilters = {
     SHOW_ALL: 'SHOW_ALL',
     SHOW_COMPLETED: 'SHOW_COMPLETED',
     SHOW_ACTIVE: 'SHOW_ACTIVE'
