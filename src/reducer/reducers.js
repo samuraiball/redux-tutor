@@ -4,11 +4,11 @@ import {
     ADD_TODO,
     TAGGLE_TODO,
     SET_VISIBIRITY_FILTER,
-    VisibirityFilters
+    VisibilityFilters
 
 } from "../action/action";
 
-const {SHOW_ALL} = VisibirityFilters
+const {SHOW_ALL} = VisibilityFilters
 
 function visibirityFiler(state = SHOW_ALL, action) {
     switch (action.type) {
