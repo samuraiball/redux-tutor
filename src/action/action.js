@@ -3,8 +3,8 @@
  */
 
 export const ADD_TODO = ' ADD_TODO '
-export const TAGGLE_TODO = 'TAGGLE_TODO'
-export const SET_VISIBIRITY_FILTER = 'SET_VISIBIRITY_FILTER'
+export const TOGGLE_TODO = 'TOGGLE_TODO'
+export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER'
 
 /*
     other contents
@@ -25,9 +25,9 @@ export function addToDoAction(text) {
 }
 
 export function taggleTodo(index) {
-    return {type: TAGGLE_TODO, index}
+    return {type: TOGGLE_TODO, index}
 }
 
 export function setVisibirityFilter(filter) {
-    return {type:SET_VISIBIRITY_FILTER,filter}
+    return {type:SET_VISIBILITY_FILTER,filter}
 }
