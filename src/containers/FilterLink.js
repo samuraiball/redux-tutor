@@ -1,6 +1,7 @@
 import {setVisibirityFilter} from "../action/action"
 import { connect } from 'react-redux'
-import Link from 'Link'
+import Link from '../compornet/Link'
+
 
 
 const mapStateToprops = (state, ownProps) => {

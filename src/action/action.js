@@ -9,6 +9,7 @@ export const SET_VISIBIRITY_FILTER = 'SET_VISIBIRITY_FILTER'
 /*
     other contents
  */
+let nextId=0
 export const VisibilityFilters = {
     SHOW_ALL: 'SHOW_ALL',
     SHOW_COMPLETED: 'SHOW_COMPLETED',
@@ -19,8 +20,8 @@ export const VisibilityFilters = {
     action creator
  */
 
-export function addToDo(text) {
-    return {type: ADD_TODO, text}
+export function addToDoAction(text) {
+    return {type: ADD_TODO, text,id:nextId++}
 }
 
 export function taggleTodo(index) {
